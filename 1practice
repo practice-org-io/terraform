@@ -19,3 +19,16 @@ blockname type name{
 blockname type name
 blockname type name'
 blockname type name
+
+init plan apply destroy 
+
+resource type name
+key = value
+
+variable "name" {
+    default = ""
+}
+
+terraform output
+terraform validate
+terraform console
