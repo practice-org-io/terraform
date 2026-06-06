@@ -32,3 +32,6 @@ variable "name" {
 terraform output
 terraform validate
 terraform console
+
+provisioner
+on_failure = continue
