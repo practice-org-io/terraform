@@ -1,0 +1,113 @@
+[
+  {
+    "id": "i-0b66e5b36ec378ef3",
+    "name": "mongodb",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.35.63",
+    "public_ip": "34.229.210.221",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-08e04d79d28283b24",
+    "name": "redis",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.43.199",
+    "public_ip": "35.168.22.109",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-0b89681872e21789c",
+    "name": "mysql",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.42.254",
+    "public_ip": "32.192.206.97",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-07184765d1df8a78c",
+    "name": "rabbitmq",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.46.221",
+    "public_ip": "18.232.132.39",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-0f27ae6834dc23a2e",
+    "name": "catalogue",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.36.206",
+    "public_ip": "100.31.49.66",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-0496b9843c1afa7ed",
+    "name": "user",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.40.194",
+    "public_ip": "3.87.126.204",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-0ed55e53795ed666c",
+    "name": "cart",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.34.25",
+    "public_ip": "100.54.197.0",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-0490c7ef5dbc8edcc",
+    "name": "shipping",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.39.38",
+    "public_ip": "98.83.23.124",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-080e6c12bad02a114",
+    "name": "payment",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.42.130",
+    "public_ip": "100.31.244.154",
+    "project": "roboshop"
+  },
+  {
+    "id": "i-05061b4b2bd74d6c5",
+    "name": "frontend",
+    "ami": "ami-0220d79f3f480ecf5",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "subnet_id": "subnet-08975733871f38202",
+    "private_ip": "172.31.32.49",
+    "public_ip": "54.175.37.170",
+    "project": "roboshop"
+  }
+]
+
