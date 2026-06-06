@@ -18,14 +18,4 @@ blockname type name{
 }
 blockname type name
 blockname type name'
-<<<<<<< HEAD
 blockname type name
-=======
-blockname type name
-
-init plan apply destroy 
-
-resource type name
-key = value
-
->>>>>>> 1686d85 (some changes)
