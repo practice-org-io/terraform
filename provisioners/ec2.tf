@@ -10,11 +10,11 @@ resource "aws_instance" "example" {
 
   provisioner "local-exec" {
     command = "exit 1"
+     on_failure = continue
   }
 
   provisioner "local-exec" {
     command = "echo script-2"
-    on_failure = continue
   }
 
   provisioner "local-exec" {
@@ -25,6 +25,26 @@ resource "aws_instance" "example" {
   provisioner "local-exec" {
     when = destroy
     command = "echo > inventory.ini"
+  }
+  connection {
+    type = "ssh"
+    user = "ec2-user"
+    password = "DevOps321"
+    host = self.public_ip
+  }
+  provisioner "remote-exec" {
+    inline = [
+      "sudo dnf install nginx -y",
+      "sodu systemctl start nginx"
+      ]
+  }
+
+  provisioner "remote-exec" {
+    inline = [
+      "sudo dnf install nginx -y",
+      "sodu systemctl start nginx"
+      ]
+    when = destroy
   }
 
   tags = {
