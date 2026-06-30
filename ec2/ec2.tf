@@ -32,5 +32,9 @@ resource "aws_security_group" "allow_tls" {
   tags = {
     Name = "allow-all-terraform"
   }
+
+  lifecycle {
+    create_before_destroy = true
+  }
 }
 
